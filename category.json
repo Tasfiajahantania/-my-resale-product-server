@@ -1,0 +1,22 @@
+[
+ {
+      "name": "Apple",
+      "user_id":"01",
+      "icon":"https://i.ibb.co/q58qz5Z/iphone-logo.png"
+ },
+ {
+      "name": "Vivo",
+      "user_id":"01",
+      "icon":"https://i.ibb.co/0qd9xGb/Vivo-logo.png"
+ },
+ {
+      "name": "Xiaomi",
+      "user_id":"01",
+      "icon":"https://i.ibb.co/qntBbMS/xiaomi-logo.png"
+ },
+ {
+      "name": "Huawei",
+      "user_id":"01",
+      "icon":"https://i.ibb.co/PGkTGPR/huawei-logo.png"
+ }
+]
