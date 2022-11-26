@@ -51,7 +51,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send(`${process.env.APP_NAME} server is running`);
+    res.send(`${process.env.APP_NAME} server is running.....`);
 })
 
 app.listen(port, () => {
