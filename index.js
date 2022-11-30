@@ -63,6 +63,12 @@ async function run() {
             res.send(result);
         })
 
+        app.delete('/users/:id', async (req, res) => {
+            const id = req.params.id;
+            const filter = { _id: ObjectId(id) }
+            const result = await userCollection.deleteOne(filter)
+            res.send(result)
+        })
         app.get('/category/product/:id', async (req, res) => {
             const category = req.params.id;
             const query = { category: category };
